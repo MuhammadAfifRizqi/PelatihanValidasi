@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Halaman Login</title>
+    <script src="validation.js"></script>
+</head>
+
+<body>
+    <form method="post" action="" onsubmit="return cekform()">
+        <table id="tabel-input">
+            <tr>
+                <td class="label-formulir">Nama Lengkap</td>
+                <td class="isian-formulir"><input type="text" name="nama" id="nama"
+                        class="isian-formulir isian-formulir-border"></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Nama Panggilan</td>
+                <td class="isian-formulir"><input type="text" name="panggilan" id="panggilan"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Tempat Lahir</td>
+                <td class="isian-formulir"><input type="text" name="tel" id="tel"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Tanggal Lahir</td>
+                <td class="isian-formulir"><input type="date" name="tal" id="tal"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Usia</td>
+                <td class="isian-formulir"><input type="text" name="usia" id="usia"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Jenis Kelamin</td>
+                <td class="isian-formulir">
+                    <select name="kelamin" id="kelamin" class="isian-formulir isian-formulir-border">
+                        <option value="pria">Pria</option>
+                        <option value="wanita">Wanita</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Kota Tinggal</td>
+                <td class="isian-formulir"><input type="text" name="kota" id="kota"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Email</td>
+                <td class="isian-formulir"><input type="email" name="email" id="email"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">No HP</td>
+                <td class="isian-formulir"><input type="text" name="hp" id="hp"
+                        class="isian-formulir isian-formulir-border"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-formulir">Media Sosial</td>
+                <td class="isian-formulir">
+                    <select name="sosial" id="sosial" class="isian-formulir isian-formulir-border" multiple>
+                        <option value="facebook">Facebook</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="twitter">twitter</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-formulir"></td>
+                <td class="isian-formulir"><input type="submit" name="simpan" value="Simpan" class="tombol"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
